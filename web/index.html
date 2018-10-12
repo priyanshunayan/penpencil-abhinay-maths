@@ -13,9 +13,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="online education, maths, iit-jee, mains, neet, aiims, institue, india" />
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -31,7 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			$("#carouselExampleIndicators").swiperight(function () {
 				$(this).carousel('prev');
 			});
-			$("#carouselExampleIndicators").swipeleft(function () {
+			$("#myCarousel").swipeleft(function () {
 				$(this).carousel('next');
 			});
 		});
@@ -78,6 +77,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					display: flex;
 				}
 			}
+			@media(min-width: 768px) {
+  .field-label-responsive {
+    padding-top: .5rem;
+    text-align: right;
+  }
+}
 		</style>
 </head>
 
@@ -122,9 +127,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="w3ls_banner_info">
 				<div class="container">
-					<div class="w3l_banner_logo">
-						<h2>A</h2>
-					</div>
+					<img src="images/Transparent-Logo.png" alt="" height="100px" width="100px">
 					<h3>education brings about opportunity, and in turn inspiration</h3>
 					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<div class="more">
@@ -135,20 +138,107 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
-									Schooling
+									Sign Up
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								</div>
 								<section>
 									<div class="modal-body">
-										<img src="images/17.jpg" alt=" " class="img-responsive" />
-										<p>Ut enim ad minima veniam, quis nostrum
-											exercitationem ullam corporis suscipit laboriosam,
-											nisi ut aliquid ex ea commodi consequatur? Quis autem
-											vel eum iure reprehenderit qui in ea voluptate velit
-											esse quam nihil molestiae consequatur, vel illum qui
-											dolorem eum fugiat quo voluptas nulla pariatur.
-											<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-												esse quam nihil molestiae consequatur.</i></p>
+											<div class="container">
+													<form class="form-horizontal" role="form" method="POST" action="/register">
+														<div class="row">
+															<div class="col-md-3"></div>
+															<div class="col-md-6">
+																<h2>Register New User</h2>
+																<hr>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-md-3 field-label-responsive">
+																<label for="name">Name</label>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group">
+																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																		<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-user"></i></div>
+																		<input type="text" name="name" class="form-control" id="name"
+																			   placeholder="John Doe" required autofocus>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-3">
+																<div class="form-control-feedback">
+																		<span class="text-danger align-middle">
+																			<!-- Put name validation error messages here -->
+																		</span>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-md-3 field-label-responsive">
+																<label for="email">E-Mail Address</label>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group">
+																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																		<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
+																		<input type="text" name="email" class="form-control" id="email"
+																			   placeholder="you@example.com" required autofocus>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-3">
+																<div class="form-control-feedback">
+																		<span class="text-danger align-middle">
+																			<!-- Put e-mail validation error messages here -->
+																		</span>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-md-3 field-label-responsive">
+																<label for="password">Password</label>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group has-danger">
+																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																		<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
+																		<input type="password" name="password" class="form-control" id="password"
+																			   placeholder="Password" required>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-3">
+																<div class="form-control-feedback">
+																		<span class="text-danger align-middle">
+																			<i class="fa fa-close"> Example Error Message</i>
+																		</span>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-md-3 field-label-responsive">
+																<label for="password">Confirm Password</label>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group">
+																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																		<div class="input-group-addon" style="width: 2.6rem">
+																			<i class="fa fa-repeat"></i>
+																		</div>
+																		<input type="password" name="password-confirmation" class="form-control"
+																			   id="password-confirm" placeholder="Password" required>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-md-3"></div>
+															<div class="col-md-6">
+																<button type="submit" class="btn btn-success"><i class="fa fa-user-plus"></i> Register</button>
+															</div>
+														</div>
+													</form>
+												</div>
 									</div>
 								</section>
 							</div>
