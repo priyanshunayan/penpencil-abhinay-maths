@@ -125,7 +125,7 @@ span.menu{
 .w3l_banner_logo h2{
 	font-size: 5em;
     color: #fff;
-    line-height: 1.3;
+    line-height: 1.8;
 	transform: rotate(-30deg);
 	-webkit-transform: rotate(-30deg);
 	-moz-transform: rotate(-30deg);
@@ -251,7 +251,7 @@ button.close {
 	background:#EEE048;
 }
 .banner-bottom-image-text-right{
-	padding:0;
+	padding:0!important;
 }
 .banner-bottom-image-text-right img {
     width: 100%;
@@ -1770,3 +1770,16 @@ div#myTabContent {
 		margin: 2em 0 1em;
 	}
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: white;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+	color: white;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+	color: white;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+	color: white;
+  }
