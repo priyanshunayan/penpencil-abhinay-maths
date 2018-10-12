@@ -14,6 +14,11 @@ h1,h2,h3,h4,h5,h6{
 	margin:0;	
 	font-family: 'Gloria Hallelujah', cursive;
 }	
+.btn-primary {
+    color: #fff;
+    background-color: #e67700 !important;
+	border-color: #e67700 !important;
+}
 p{
 	margin:0;
 	font-size:14px;
@@ -144,7 +149,7 @@ span.menu{
 }
 .w3ls_banner_info h3:after{
 	content:'';
-	background:#96F070;
+	background:#e67700;
 	height:1px;
 	width:30%;
 	position:absolute;
@@ -158,7 +163,7 @@ span.menu{
 }
 .modal-header {
     font-size: 2em;
-    color:#4BC319;
+    color:#e67700;
 }
 .close {
     opacity: 1;
@@ -167,12 +172,15 @@ span.menu{
     outline: none;
 }
 .more a{
-	font-size: 14px;
+	font-size: 18px;
     text-transform: capitalize;
     text-decoration: none;
     padding: 8px 40px;
-    background: #4BC319;
     color: #fff;
+}
+.more a:hover {
+	color: white;
+	text-decoration: none;
 }
 .modal-body p {
     color: #999;
@@ -232,7 +240,7 @@ button.close {
 .wthree_banner_bottom_right h3{
 	text-transform: capitalize;
     font-size: 1.8em;
-    color: #4BC319;
+    color: #e67700;
     line-height: 1.5em;
 }
 .wthree_banner_bottom_right p{
@@ -311,7 +319,7 @@ button.close {
 }
 .team h3,.team-bottom h3,.gallery h3,.testimonials h3{
 	font-size: 2.5em;
-    color: #4BC319;
+    color: #e67700;
     padding-bottom:.7em;
     position: relative;
     font-family: 'Open Sans', sans-serif;
@@ -875,7 +883,7 @@ div#myTabContent {
 	background:#F7F7F7;
 }
 .w3agile_contact_right{
-	background:#5DCD2F;
+	background:#e67700;
 }
 .w3agile_contact_left p {
     color: #212121;
@@ -906,7 +914,7 @@ div#myTabContent {
     width: 30%;
     font-size: 14px;
     color: #fff;
-    background: #4BC319;
+    background: #e67700;
     margin: 3em 0 0;
 }
 .w3agile_contact_left input[type="submit"]:hover{
