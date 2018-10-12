@@ -256,7 +256,8 @@ button.close {
 .banner-bottom-image-text-left{
 	padding:5em 10em 6.95em 18em;
 /*-- agileits --*/
-	background:#EEE048;
+	background:#f3d9fa;
+	color:white;
 }
 .banner-bottom-image-text-right{
 	padding:0!important;
@@ -684,12 +685,12 @@ select#country,select#country1{
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin: 4em 0 0 20em;
+    margin: 4em 0 0 33em;
 }
 .reservation input[type="submit"]:hover{
-	background: #EEE048;
-    border: 1px solid #BDAF21;
-    color: #212121;
+	background: #e67700;
+	border: 1px solid #e67700;    
+	color: #212121;
 }
 /*-- //team-bottom --*/
 /*-- gallery --*/
