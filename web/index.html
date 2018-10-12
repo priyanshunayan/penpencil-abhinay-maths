@@ -13,7 +13,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="online education, maths, iit-jee, mains, neet, aiims, institue, india" />
-
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -25,6 +27,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		function hideURLbar() {
 			window.scrollTo(0, 1);
 		}
+		$(document).ready(function () {
+			$("#carouselExampleIndicators").swiperight(function () {
+				$(this).carousel('prev');
+			});
+			$("#carouselExampleIndicators").swipeleft(function () {
+				$(this).carousel('next');
+			});
+		});
 	</script>
 	<!-- //for-mobile-apps -->
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -93,7 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</nav>
 						<!-- script-for-menu -->
 						<script>
-							 
+
 							document.getElementById('hamburger').addEventListener('click', () => {
 								if(document.getElementById('dropdown-menu-mobile').style.display === "none" ){
 									document.getElementById('dropdown-menu-mobile').style.display = "block";
