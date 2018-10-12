@@ -13,27 +13,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="online education, maths, iit-jee, mains, neet, aiims, institue, india" />
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<script type="application/x-javascript">
-		addEventListener("load", function () {
+		document.addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
 			$('.carousel').carousel({
-				interval: fla
+				interval: false
 			})
 		}, false);
 
 		function hideURLbar() {
 			window.scrollTo(0, 1);
 		}
-		$(document).ready(function () {
-			$("#carouselExampleIndicators").swiperight(function () {
-				$(this).carousel('prev');
-			});
-			$("#myCarousel").swipeleft(function () {
-				$(this).carousel('next');
-			});
-		});
+
 	</script>
 	<!-- //for-mobile-apps -->
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -83,6 +75,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     text-align: right;
   }
 }
+@media only screen and (min-width:1280px){
+	.reservation {
+		width: 90%;
+	}
+}
 		</style>
 </head>
 
@@ -96,9 +93,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h1><a href="index.html">Abhinay Maths</a></h1>
 					</div>
 					<div class="navigation-right">
-						<span class="menu" data-toggle="dropdown" id="hamburger"><img src="images/menu.png" alt=" " /></span>
+						<span class="menu" id="hamburger"><img src="images/menu.png" alt="Menu" /></span>
 						<nav class="link-effect-3" id="link-effect-3">
-							<ul class="nav1 nav nav-wil" id="dropdown-menu-mobile">
+							<ul class="nav1 nav" id="dropdown-menu-mobile">
 								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
 								<li><a data-hover="About" href="#about" class="scroll">About</a></li>
 								<li><a data-hover="Team" href="#team" class="scroll">Videos</a></li>
@@ -108,7 +105,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</nav>
 						<!-- script-for-menu -->
 						<script>
-
 							document.getElementById('hamburger').addEventListener('click', () => {
 								if(document.getElementById('dropdown-menu-mobile').style.display === "none" ){
 									document.getElementById('dropdown-menu-mobile').style.display = "block";
@@ -117,8 +113,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							}
 							
 							});
-						
-							
 								</script>
 						<!-- /script-for-menu -->
 					</div>
@@ -637,6 +631,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	 crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script>
+	 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
 	<!-- //for bootstrap working -->
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
@@ -653,6 +649,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			$().UItoTop({
 				easingType: 'easeOutQuart'
 			});
+			
+		$(document).ready(function () {
+			$("#carouselExampleIndicators").swiperight(function () {
+				$(this).carousel('prev');
+			});
+			$("#carouselExampleIndicators").swipeleft(function () {
+				$(this).carousel('next');
+			});
+		});
 		});
 	</script>
 	<!-- //here ends scrolling icon -->
