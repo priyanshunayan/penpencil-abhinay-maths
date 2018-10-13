@@ -35,6 +35,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="css/jquery-ui.css" type='text/css' />
 	<link rel="stylesheet" href="css/smoothbox.css" type='text/css'>
+	<!-- Slick CSS CDN -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>	
 	<!-- //Custom Theme files -->
 	<!-- js -->
 	<script src="js/jquery.min.js"></script>
@@ -310,32 +313,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<h3>Videos</h3>
 			<p class="nostrud">Here are some of our videos </p>
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EQuGDy49_0c" allowfullscreen></iframe>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VTV1yWO_4Pk" allowfullscreen></iframe>
-						</div>
-					</div>
+			<div class="vidoes-to-show">
+<!-- 				<div class="embed-responsive embed-responsive-1by1">
+					<iframe  src="https://www.youtube.com/embed/Wf8JZ0VJ3aM?rel=0" class="embed-responsive-item"  allowfullscreen>
+					</iframe>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
+				<div class="embed-responsive embed-responsive-1by1">
+						<iframe  src="https://www.youtube.com/embed/Wf8JZ0VJ3aM?rel=0" class="embed-responsive-item"  allowfullscreen>
+						</iframe>
+					</div>
+				<div class="embed-responsive embed-responsive-1by1">
+						<iframe  src="https://www.youtube.com/embed/Wf8JZ0VJ3aM?rel=0" class="embed-responsive-item"  allowfullscreen>
+						</iframe>
+					</div>
+				<div class="embed-responsive embed-responsive-1by1">
+						<iframe  src="https://www.youtube.com/embed/Wf8JZ0VJ3aM?rel=0" class="embed-responsive-item"  allowfullscreen>
+						</iframe>
+					</div> -->
+					<div class="embed-responsive embed-responsive-4by3 mr-2">
+						<iframe  src="https://www.youtube.com/embed/LJcwoAHU9Qs?rel=0" class="embed-responsive-item" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<div class="embed-responsive embed-responsive-4by3 mr-2"> 
+						<iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/uZyxP9497PE?rel=0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<div class="embed-responsive embed-responsive-4by3 mr-2">
+						<iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/1kcjqtnsSKM?rel=0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+					<div class="embed-responsive embed-responsive-4by3 mr-2">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6vrIO9p2mlU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+			</div>			
 		</div>
 	</div>
 	<!-- //team -->
@@ -626,6 +633,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //contact -->
 	<!-- for bootstrap working -->
+
+	<!-- <script type="text/javascript">
+			$(document).ready(function(){
+				$('.vidoes-to-show').slick({
+				accessibility: true,
+			});
+			})
+	</script> -->
 	<script src="js/bootstrap.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	 crossorigin="anonymous"></script>
@@ -633,10 +648,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	 crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script>
-	 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 	<!-- //for bootstrap working -->
 	<!-- here stars scrolling icon -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			/*
@@ -647,19 +664,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				easingType: 'linear' 
 				};
 			*/
-
-			$().UItoTop({
+			/* $().UItoTop({
 				easingType: 'easeOutQuart'
+			}); */
+
+			$('.vidoes-to-show').slick({
+				accessibility: true,
+				arrows: true,
+				slidesToShow: 3,
+				mobileFirst:true,
+				dots: true,
+				autoplay: false,
+
 			});
-			
-		$(document).ready(function () {
-			$("#carouselExampleIndicators").swiperight(function () {
-				$(this).carousel('prev');
-			});
-			$("#carouselExampleIndicators").swipeleft(function () {
-				$(this).carousel('next');
-			});
-		});
 		});
 	</script>
 	<!-- //here ends scrolling icon -->
