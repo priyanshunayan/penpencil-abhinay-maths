@@ -1795,3 +1795,21 @@ div#myTabContent {
 	  width: 80%;
 	  margin: auto;
   }
+
+  .copyright {
+	  width: 90%;
+	  margin: auto;
+	  display: flex;
+	  justify-content: space-around;
+	  align-items: center;
+	  padding: 1em;
+	  text-decoration: none;
+  }
+  .copyright a {
+	  font-size: 1.3em;
+	  color: white;
+  }
+  .copyright a:hover {
+	color: white;
+	text-decoration: underline;
+}

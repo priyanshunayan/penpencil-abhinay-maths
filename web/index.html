@@ -25,7 +25,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		function hideURLbar() {
 			window.scrollTo(0, 1);
 		}
-
 	</script>
 	<!-- //for-mobile-apps -->
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -36,8 +35,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link rel="stylesheet" href="css/jquery-ui.css" type='text/css' />
 	<link rel="stylesheet" href="css/smoothbox.css" type='text/css'>
 	<!-- Slick CSS CDN -->
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>	
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 	<!-- //Custom Theme files -->
 	<!-- js -->
 	<script src="js/jquery.min.js"></script>
@@ -88,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 	<script src="js/jquery.vide.min.js"></script>
-	<div data-vide-bg="video/srix">
+	<div data-vide-bg="video/front-video">
 		<div class="center-container">
 			<div class="navigation">
 				<div class="container">
@@ -128,9 +127,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3>education brings about opportunity, and in turn inspiration</h3>
 					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<div class="more">
-						<button class ="btn btn-primary btn-lg">
-						<a href="#" data-toggle="modal" data-target="#myModal">Sign Up and Study Now</a>
-					</button>	
+						<button class="btn btn-primary btn-lg">
+							<a href="#" data-toggle="modal" data-target="#myModal">Sign Up and Study Now</a>
+						</button>
 					</div>
 					<!--modal-video-->
 					<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
@@ -142,102 +141,101 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 								<section>
 									<div class="modal-body">
-											<div class="container">
-													<form class="form-horizontal" role="form" method="POST" action="/register">
-														<div class="row">
-															<div class="col-md-3"></div>
-															<div class="col-md-6">
-																<h2>Register New User</h2>
-																<hr>
-															</div>
-														</div>
-														<div class="row">
-															<div class="col-md-3 field-label-responsive">
-																<label for="name">Name</label>
-															</div>
-															<div class="col-md-6">
-																<div class="form-group">
-																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
-																		<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-user"></i></div>
-																		<input type="text" name="name" class="form-control" id="name"
-																			   placeholder="John Doe" required autofocus>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-3">
-																<div class="form-control-feedback">
-																		<span class="text-danger align-middle">
-																			<!-- Put name validation error messages here -->
-																		</span>
-																</div>
-															</div>
-														</div>
-														<div class="row">
-															<div class="col-md-3 field-label-responsive">
-																<label for="email">E-Mail Address</label>
-															</div>
-															<div class="col-md-6">
-																<div class="form-group">
-																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
-																		<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
-																		<input type="text" name="email" class="form-control" id="email"
-																			   placeholder="you@example.com" required autofocus>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-3">
-																<div class="form-control-feedback">
-																		<span class="text-danger align-middle">
-																			<!-- Put e-mail validation error messages here -->
-																		</span>
-																</div>
-															</div>
-														</div>
-														<div class="row">
-															<div class="col-md-3 field-label-responsive">
-																<label for="password">Password</label>
-															</div>
-															<div class="col-md-6">
-																<div class="form-group has-danger">
-																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
-																		<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
-																		<input type="password" name="password" class="form-control" id="password"
-																			   placeholder="Password" required>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-3">
-																<div class="form-control-feedback">
-																		<span class="text-danger align-middle">
-																			<i class="fa fa-close"> Example Error Message</i>
-																		</span>
-																</div>
-															</div>
-														</div>
-														<div class="row">
-															<div class="col-md-3 field-label-responsive">
-																<label for="password">Confirm Password</label>
-															</div>
-															<div class="col-md-6">
-																<div class="form-group">
-																	<div class="input-group mb-2 mr-sm-2 mb-sm-0">
-																		<div class="input-group-addon" style="width: 2.6rem">
-																			<i class="fa fa-repeat"></i>
-																		</div>
-																		<input type="password" name="password-confirmation" class="form-control"
-																			   id="password-confirm" placeholder="Password" required>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="row">
-															<div class="col-md-3"></div>
-															<div class="col-md-6">
-																<button type="submit" class="btn btn-success"><i class="fa fa-user-plus"></i> Register</button>
-															</div>
-														</div>
-													</form>
+										<div class="container">
+											<form class="form-horizontal" role="form" method="POST" action="/register">
+												<div class="row">
+													<div class="col-md-3"></div>
+													<div class="col-md-6">
+														<h2>Register New User</h2>
+														<hr>
+													</div>
 												</div>
+												<div class="row">
+													<div class="col-md-3 field-label-responsive">
+														<label for="name">Name</label>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-user"></i></div>
+																<input type="text" name="name" class="form-control" id="name" placeholder="John Doe" required autofocus>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-control-feedback">
+															<span class="text-danger align-middle">
+																<!-- Put name validation error messages here -->
+															</span>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-md-3 field-label-responsive">
+														<label for="email">E-Mail Address</label>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
+																<input type="text" name="email" class="form-control" id="email" placeholder="you@example.com" required
+																 autofocus>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-control-feedback">
+															<span class="text-danger align-middle">
+																<!-- Put e-mail validation error messages here -->
+															</span>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-md-3 field-label-responsive">
+														<label for="password">Password</label>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group has-danger">
+															<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
+																<input type="password" name="password" class="form-control" id="password" placeholder="Password"
+																 required>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-control-feedback">
+															<span class="text-danger align-middle">
+																<i class="fa fa-close"> Example Error Message</i>
+															</span>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-md-3 field-label-responsive">
+														<label for="password">Confirm Password</label>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+																<div class="input-group-addon" style="width: 2.6rem">
+																	<i class="fa fa-repeat"></i>
+																</div>
+																<input type="password" name="password-confirmation" class="form-control" id="password-confirm"
+																 placeholder="Password" required>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-md-3"></div>
+													<div class="col-md-6">
+														<button type="submit" class="btn btn-success"><i class="fa fa-user-plus"></i> Register</button>
+													</div>
+												</div>
+											</form>
+										</div>
 									</div>
 								</section>
 							</div>
@@ -253,10 +251,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="agileits_about_grids">
 				<div class="col-md-6 agileits_about_grid_left">
 					<h3>What We Offer</h3>
-					<p>Duis aute irure dolor in reprehenderit
-						in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt mollit anim id est laborum.</p>
+					<p>We provides the best Faculity,Finest Study material,Live Classes and High Selection Rate.
+						In this era of Digitilization, we deliver the maximum knowledge through You Tube Channel & Live Classes to the
+						different corners of country.</p>
 				</div>
 				<div class="col-md-6 agileits_about_grid_right">
 					<img src="images/Abhinay-Maths-Web-(Laptop-&-MOB).png" alt=" " class="img-responsive" />
@@ -270,21 +267,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="banner-bottom">
 		<div class="container">
 			<div class="col-md-4 wthree_banner_bottom_left">
-				<img src="images/1.jpg" alt=" " class="img-responsive" />
+				<img src="images/importance.png" alt=" " class="img-responsive" />
 			</div>
 			<div class="col-md-8 wthree_banner_bottom_right">
-				<h3>the whole purpose of education is to turn mirrors into windows</h3>
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-					dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h3>Usefulness of Maths</h3>
 				<ol>
-					<li>sunt in culpa qui officia deserunt</li>
-					<li>Excepteur sint occaecat cupidatat</li>
-					<li>irure dolor in reprehenderit</li>
-					<li>proident, sunt in culpa qui officia</li>
-					<li>deserunt mollit anim id est laborum</li>
-					<li>Duis aute irure dolor in reprehen</li>
+					<li>Mathematics help us think analytically and have better reasoning abilities.</li>
+					<li>It helps us have better problem-solving skills.</li>
+					<li>Mathematics help us think analytically and have better reasoning abilities.</li>
 				</ol>
+				<h3>Exams that we offer</h3>
+				<ol>
+					<li>SSC [CGL,CHSL,CPO,Steno,GD(Constable)]
+					</li>
+					<li>
+						BANK-PO & Clerk
+					</li>
+					<li>
+						SBI-PO SBI-Clerk
+					</li>
+					<li>CDS, AFCAT</li>
+					<li>
+						RAILWAY RRB
+					</li>
+				</ol>
+
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -294,13 +301,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div id="about" class="banner-bottom-image-text">
 		<div class="col-md-8 banner-bottom-image-text-left">
 			<h3>Who We Are</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur.</p>
-			<h4>education is for improving the lives of others and for leaving your
-				community and world better than you found it.</h4>
+			<p>Welcome to the most trusted companion- "ABHINAY MATHS" is the perfect learning platform to accompany students
+				throughout their journey of competitive examination with the aim of enhancing their skills.
+				This Application is a new enterprise by Abhinay Maths in the same direction for keeping our aspirants updated
+				with new initiatives,courses and advanced notions.
+				This medium of providing education will not focus on making you learn the concepts but on assisting them think
+				and create their own.
+				Our study App will deliver the best content ,courses, live classes and Test series.
+				So,students start your trip to success with us.This year,you can be a topper.
+			</p>
+			<h4> kyuki waqt badalta hai, fir bdlega
+				sara jahaan apna hoga.
+			</h4>
 		</div>
 		<div class="col-md-4 banner-bottom-image-text-right">
 			<img src="images/550-570.png" alt=" " class="img-responsive abhinay-who-we-are" />
@@ -314,7 +326,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3>Videos</h3>
 			<p class="nostrud">Here are some of our videos </p>
 			<div class="vidoes-to-show">
-<!-- 				<div class="embed-responsive embed-responsive-1by1">
+				<!-- 				<div class="embed-responsive embed-responsive-1by1">
 					<iframe  src="https://www.youtube.com/embed/Wf8JZ0VJ3aM?rel=0" class="embed-responsive-item"  allowfullscreen>
 					</iframe>
 				</div>
@@ -330,19 +342,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<iframe  src="https://www.youtube.com/embed/Wf8JZ0VJ3aM?rel=0" class="embed-responsive-item"  allowfullscreen>
 						</iframe>
 					</div> -->
-					<div class="embed-responsive embed-responsive-4by3 mr-2">
-						<iframe  src="https://www.youtube.com/embed/LJcwoAHU9Qs?rel=0" class="embed-responsive-item" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</div>
-					<div class="embed-responsive embed-responsive-4by3 mr-2"> 
-						<iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/uZyxP9497PE?rel=0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</div>
-					<div class="embed-responsive embed-responsive-4by3 mr-2">
-						<iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/1kcjqtnsSKM?rel=0"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</div>
-					<div class="embed-responsive embed-responsive-4by3 mr-2">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6vrIO9p2mlU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</div>
-			</div>			
+				<div class="embed-responsive embed-responsive-4by3 mr-2">
+					<iframe src="https://www.youtube.com/embed/LJcwoAHU9Qs?rel=0" class="embed-responsive-item" allow="autoplay; encrypted-media"
+					 allowfullscreen></iframe>
+				</div>
+				<div class="embed-responsive embed-responsive-4by3 mr-2">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uZyxP9497PE?rel=0" allow="autoplay; encrypted-media"
+					 allowfullscreen></iframe>
+				</div>
+				<div class="embed-responsive embed-responsive-4by3 mr-2">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1kcjqtnsSKM?rel=0" allow="autoplay; encrypted-media"
+					 allowfullscreen></iframe>
+				</div>
+				<div class="embed-responsive embed-responsive-4by3 mr-2">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6vrIO9p2mlU?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+					 allowfullscreen></iframe>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- //team -->
@@ -609,17 +625,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3><a href="index.html">Abhinay Maths</a></h3>
 			<div class="col-xs-6 w3agile_contact_right_agileinfo">
 				<h4>Address</h4>
-				<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>West Punjabi Bagh, New Delhi<i> West
-						Punjabi Bagh, Delhi</i></p>
+				<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					A-7,Top Floor,Jai Building,commercial Comp.,Near Chawla Restaurant,Behind Batra Cinema,Mukherjee Nagar,Delhi -09
+					Connect us with
+					www.mathswithabhinay.com
+				</p>
 				<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+) 0983 010 823</p>
 				<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">test@test.com</a></p>
 			</div>
 			<div class="col-xs-6 w3agile_contact_right_agileinfo">
 				<h4>Follow Us</h4>
 				<div class="agileits_social_icons">
-					<a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
-					<a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
-					<a href="#" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+					<a href="#"><img src="images/facebook.png" width="60px" height="60px"><span></span></a>
+					<a href="#"><img src="images/Youtube.png" width="70px" height="55px"><span></span></a>
+					<a href="#"><img src="images/Instagram.png" width="60px" height="60px"></i><span></span></a>
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -627,6 +646,1084 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="w3_copy_right">
 				<img src="images/Logo-1024-500-(1).png" alt="Pen Pencil Logo" width="80px" height="80px">
 				<p>Powered By PENPENCIL.XYZ</p>
+			</div>
+			<div class="copyright">
+				<a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy Policy</a>
+				<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+				 aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+
+
+								This Privacy Policy explains what information is collected from visitors to the finding x & its website, why
+								the information is collected and how it is used. It also explains user options for accessing and managing
+								information, our data security practices and other matters.
+
+								The website is operated and owned by finding x and is subject to our
+
+								Terms of Use.
+
+								Why we collect personal information?
+
+								We collect personal information from you to identify you, to ensure that we provide you with the
+
+								Correct feedback regarding your performance in various tests, and to help us deliver a superior
+
+								educational experience. Information collected enables us to give you convenient access to our
+
+								service offerings and products, and may help us tailor your educational experience.
+
+								What Information do we collect and how do we use it?
+
+								1. Information you provide:
+
+								We collect information to provide more effective services. We ask for your name, email address,
+
+								and other personal information when you register to use certain features of our website. We
+
+								also may ask for this information at other times, such as when you enter contests or other
+
+								promotions sponsored by us and/or our partners. We may also ask you to submit your ID and
+
+								Address Proof such as Passport, Aadhar Card, Pan Card, Voter ID card etc. If you use a feature
+
+								that requires payment of a fee, we collect your credit card data or payment account information.
+
+								If you choose to use our invitation service to tell a friend about our site, we ask you for
+
+								information to send the invitation (such as your friend's email address). We automatically send
+
+								your friend a one-time email or instant message inviting him/her to visit our site. We store this
+
+								information to: send this one-time invitation, register a referral if your invitation is accepted, and
+
+								track the success of our referral program. Your friend may contact us at our registered office
+
+								address to request that we remove this information from our database. When you use one of
+
+								our paid products, we track the web pages, and information that has been accessed by you, and
+
+								store it on our servers. This enables us to track items that you have completed, and those that
+
+								you need to see.
+
+								2. Cookies:
+
+								We send cookies (small files containing a string of characters) to your computer, thereby
+
+								uniquely identifying your browser. Cookies are used to track your preferences, help you login
+
+								faster, and aggregated to determine user trends. This data is used to improve our offerings,
+
+								such as providing more content in areas of greater interest to a majority of users. Most
+
+								browsers are initially set up to accept cookies, but you can reset your browser to refuse all
+
+								cookies or to indicate when a cookie is being sent. Some of our features and services may not
+
+								function properly if your cookies are disabled.
+
+								3. Log information:
+
+								When you access our website, our servers automatically record information that your browser
+
+								sends whenever you visit a website. These server logs may include information such as your
+
+								web request, Internet Protocol address, browser type, browser language, the date and time of
+
+								your request and one or more cookies that may uniquely identify your browser.
+
+								4. User communications:
+
+								When you send email or other communication to us, we may retain those communications in
+
+								order to process your inquiries, respond to your requests and improve our services.
+
+								5. Links:
+
+								We may present links in a format that enables us to keep track of whether these links have been
+
+								followed. We use this information to improve our customized content. Clicking on links may take
+
+								you to sites outside our domain. We are not responsible for the privacy practices of other web
+
+								sites. We encourage our users to be aware when they leave our site to read the privacy
+
+								statements of each and every web site that collects personally identifiable information. This
+
+								Privacy Policy applies solely to information collected by our Website.
+
+								6. Alerts:
+
+								We may alert you by email if we update our website in a way that we believe you should know
+
+								about. Email alerts are usually prompted by new features on the websites, or substantial
+
+								improvements in product offerings.
+
+								7. Public Forums:
+
+								When you use certain features on our website like the discussion forums and you post or share
+
+								your personal information such as comments, messages, files, photos, will be available to all
+
+								users, and will be in the public domain. All such sharing of information is done at your own risk.
+
+								Please keep in mind that if you disclose personal information in your profile or when posting on
+
+								our forums this information may become publicly available.
+
+								Data Security
+
+								If use a feature requiring payment of a fee, we transmit your credit card data to our bank for
+
+								processing. If we encounter a problem with payment, we may review the order information with
+
+								you and our bank to resolve it. We do not otherwise disclose your credit card information. We do
+
+								not share your email address or your personal information with third party marketers. We offer
+
+								secure pages to collect sensitive information on our order form, such as credit card information.
+
+								We also use administrative, physical and technical precautions to help protect the
+
+								confidentiality, security and integrity of personal information stored on our system. We host the
+
+								Site at a commercial-grade data center that employs extensive security practices. While no
+
+								computer system is completely secure, we believe the measures implemented by our Site
+
+								reduce the likelihood of security problems to a level appropriate to the type of data involved.
+
+								Information sharing Other than the above mentioned sharing of data related to credit card information, we only
+								share personal information with other companies or individuals outside of the finding x in the following
+								limited circumstances: We have a good faith belief that access, use, preservation or disclosure of such
+								information is reasonably necessary to :
+
+								a. Satisfy any applicable law, regulation, legal process or enforceable governmental request
+
+								b. Enforce applicable Terms of Use, including investigation of potential violations thereof
+
+								c. Detect, prevent, or otherwise address fraud, security or technical issues, or
+
+								d. Protect against imminent harm to the rights, property or safety of the finding x website or the company, its
+								users or the public as required or permitted by law.
+
+
+
+								If we become involved in a merger, acquisition, or any form of sale of some or all of our assets,
+
+								we will provide notice before personal information is transferred and becomes subject to a
+
+								different privacy policy. We may share with third parties certain pieces of aggregated,
+
+								non-personal information, such as the number of users subscribed to a particular product, or the
+
+								number of users registered on our website. Such information does not identify you individually.
+
+								We may provide information to service providers to help us bring you the services we offer.
+
+								Specifically, we may use third parties to facilitate our business, such as to host the service at a
+
+								co-location facility for servers. Where we utilize third parties for the processing of any personal
+
+								information, we implement reasonable contractual and technical protections limiting the use of
+
+								that information to our specified purposes.
+
+								How Long Do We Retain User Data?
+
+								Currently, we plan to retain user data while an account is active and for at least three years
+
+								afterwards. We may alter this practice according to legal and business requirements. For
+
+								example, we may lengthen the retention period for some data if needed to comply with law or
+
+								voluntary codes of conduct. Unless otherwise prohibited, we may shorten the retention period
+
+								for some types of data if needed to free up storage space.
+
+								Management of User Information:
+
+								You can access and manage your account information. You can update your usage by
+
+								accessing further paid services or products, or change details such as email address, and
+
+								personal information.
+
+								Your Consent to This Policy
+
+								By accessing our website, you agree to this Privacy Policy. This document supersedes any prior
+
+								communication on this topic and reflects the entire and exclusive Privacy Policy for this Site.
+
+								This Policy is subject to our Terms of Use, which take precedence over any conflicting Policy
+
+								provision. We may change our Policy by posting a new version of it on our Site.
+
+								If You Have a Question:
+
+								We are posting this Policy in an effort to be a good web citizen. If you have a question, please
+
+								bring it to our attention. Write to us at \96 abhinaymaths@gmail.com
+
+
+								Abhinay Maths
+
+								Abhinay Cyber Sqadron Pvt Ltd
+								D117, Pocket P3, Near Pari Chowk, Greater Nodia
+								Gautam Budh Nagar, UP INDIA, 201306
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a data-toggle="modal" data-target="#exampleModalLong1" href="#"> Terms and Conditions</a>
+				<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+				 aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Terms of Use</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Acceptance of Terms
+								By accessing or using this Site in any way, including using any Services, downloading Materials or merely
+
+								browsing the Site (capitalized terms defined below), you agree to and are bound by the terms and
+
+								conditions set forth in this document and any changes thereto that finding x. (referred to
+
+								hereinafter as "The Company") may publish from time to time (collectively, the "Terms of Use").If you
+
+								do not agree to all of the terms and conditions contained in the Terms of Use, do not access or use
+
+								this Site.
+
+								The company may change the Terms of Use and other guidelines and rules posted on the Site from time
+
+								to time at its sole discretion. Your continued access or use of the Site, or any Materials or Services,
+
+								constitutes your acceptance of the changes.Your access and use of the Site, Materials and Services
+
+								will be subject to the most current version of the Terms of Use, rules and guidelines posted on the
+
+								Site at the time of such use. Please regularly check the "Terms of Use" link on the home pageto
+
+								view the then-current terms.
+
+								If you breach any of the Terms of Use, your authorization to access or use this Site, Services and
+
+								Materials automatically terminates, and any Materials downloaded or printed from the Site in violation
+
+								of the Terms of Use must be immediately destroyed.
+
+								Representations and Warranties
+
+								You represent and warrant that
+
+								a. All of the information provided by you to the company to participate in the Services is
+
+								correct and current and
+
+								b. You have all necessary right, power and authority to enter into this Agreement and to
+
+								perform the acts required of you hereunder.
+
+								Personal Information and Privacy
+
+								The company will use and protect your data in accordance with our Privacy Policy,the contents of
+
+								which are incorporated by reference into the Terms of Use. Please be aware that your browser must be
+
+								enabled to accept cookies in order for you to use certain Materials and Services.
+
+								Registration
+
+								If you are required to establish an account in connection with a particular Service or Material, you must
+
+								complete the designated registration process for such Service or Material. All required registration
+
+								information provided must be current, complete and accurate and kept up to date on a prompt, timely
+
+								basis. If required, you must also choose a user name and password for such account. It is your sole
+
+								responsibility to keep your user name/password combination and other sensitive information
+
+								confidential. If you become aware of any unauthorized use of your account or any other breach of
+
+								security, you shall notify the company immediately. If any Services or Materials provide
+
+								password-restricted access to your personal information (including, but not limited to, usage records
+
+
+
+								for Materials, and performance in tests and exams) then by accessing or using this Site and setting up a
+
+								password-restricted account for such Services or Materials, you consent to the company's display of
+
+								such information via such Services or Materials and accept all risks of unauthorized access to such
+
+								information.
+
+								Site, Materials, Services
+
+								The company makes this Web site and the Materials and Services, available for your access and use
+
+								subject to the Terms of Use.
+
+								"Materials" means all information, data, documents (e.g. pdf files, datasheets, FAQs, etc.),
+
+								communications, downloads, files, text, images, photographs, graphics, videos, webcasts, publications,
+
+								content, tools, resources, software, code, problems, articles, write-ups, questions, solutions, programs
+
+								and products made available or enabled via the Site by the company or users of this Site.
+
+								"Services" means all services and resources offered or enabled via the Site by the company and users of
+
+								this Site, including some or all of downloads and download areas, product and other information
+
+								services and communications services such as bulletin boards, discussion forums, chat areas,
+
+								communities, e-mail, newsgroups, and other message or communication facilities designed to enable
+
+								you to communicate with others (collectively, "Communications Venues"). All Materials provided by the
+
+								company are referred to collectively as "the company Materials". All user-supplied Materials are
+
+								referred to collectively as "User Materials". The company Materials and User Materials may have
+
+								different restrictions and conditions associated with them under the Terms of Use and other guidelines
+
+								and rules posted via the Site.
+
+								Intellectual Property; Limited License to Users; Trademark Information
+
+								The Materials and Services, as well as their selection and arrangement, are protected to the fullest
+
+								extent possible by applicable laws related to copyrights, trademarks, trade secrets and all other
+
+								intellectual property and proprietary rights (collectively, "Intellectual Property Rights"), and any
+
+								unauthorized use of the Materials or Services may violate such laws and the Terms of Use. You agree
+
+								not to copy, republish, frame, download, transmit, modify, adapt, create derivative works based on,
+
+								rent, lease, loan, sell, assign, distribute, display, perform, license, sublicense or reverse engineer the
+
+								Site, Materials or Services, any portions of the Site, Materials or Services or the selection and
+
+								arrangement of the Site, Materials or Services, except as expressly authorized herein. In addition, you
+
+								agree not to use any data mining, robots or similar data gathering and extraction methods in
+
+								connection with the Site, Services or Materials. the company grants you non-exclusive,
+
+								non-transferable, limited permission to access and display the Web pages within this site, solely on
+
+								your computer and for your personal, non-commercial use of this Web site. This permission is
+
+								conditioned on your not modifying the content displayed on this site, your keeping intact all copyright,
+
+								trademark, and other proprietary notices, and your acceptance of any terms, conditions, and notices
+
+								accompanying the content or otherwise set forth in this site. The rights granted to you constitute a
+
+								license and not a transfer of title. The above permission does not relate to paid products and services,
+
+								for which you must pay the applicable monies to the company before accessing them.
+
+								Use of the company Materials or User Content for any other purpose is expressly prohibited and
+
+								may result in severe civil and criminal penalties. Violators will be prosecuted to the maximum
+
+								extent possible.
+
+
+
+								Use of Site and Services
+
+
+
+								You shall pay all costs and charges, including phone charges and telecommunications equipment costs,
+
+								that you incur in order to access or use the Site, Services and Materials. You must adhere to all
+
+								limitations on dissemination, usage and reproduction of any Materials that you download from the Site
+
+								that are subject to such limitations. You agree to use the Services only to access, utilize, post, send or
+
+								receive Materials in an appropriate manner as related to the particular Materials or Services being
+
+								accessed or used by you. As some examples of improper activities when accessing or using the Site,
+
+								Services or Materials, you agree that you shall not:
+
+								1. Collect, harvest, mine or engage in any other activity to obtain e-mail addresses, phone
+
+								numbers, personal information or any other information about others.
+
+								2. Use or attempt to gain access to or use another's account, password, Service, Materials or
+
+								computer systems or networks connected to any the company server or to the Site without
+
+								authorization from the company, whether through hacking, password mining or any other
+
+								means.
+
+								3. Remove or falsely add to any uploaded Materials any copyright, trademark or other legal or
+
+								proprietary rights notices, author attributions or other information such as origin or source
+
+								of the Material.
+
+								4. Access or attempt to access any Material that you are not authorized to access or through
+
+								any means not intentionally made available through the Site or Services.
+
+								5. Make available any files containing Materials where you do not own or control, or have not
+
+								received the necessary licenses to, all Intellectual Property Rights, rights of privacy and
+
+								publicity and all other rights in and to such Materials.
+
+								6. Use any Materials in any manner that infringes any Intellectual Property Rights or other
+
+								rights of any party.
+
+								7. Transmit unsolicited or bulk communications to any the company account holder
+
+								8. Post or otherwise submit any software, programs or files that are harmful or disruptive of
+
+								another's equipment, software or other property, including any corrupted files, time bombs,
+
+								Trojan horses, viruses and worms.
+
+								9. Create a false identity for the purpose of misleading others or otherwise.
+
+								10.Download any Materials posted by another that you know, or reasonably should know,
+
+								cannot be legally reproduced, distributed, performed or displayed in such manner.
+
+								11.Disrupt, interfere or inhibit any other user from using and enjoying the Site or other
+
+								affiliated or linked sites, Materials or Services.
+
+								12.Disrupt or interfere with the security of, or otherwise cause harm to, the Site, or any
+
+								Services, Materials, systems resources, accounts, passwords, servers or networks connected
+
+								to or accessible through the Site or any affiliated or linked sites.
+
+								13.Access or use the Site in any unlawful manner or any manner that could damage, disable,
+
+								overburden or impair any the company server or the network(s) connected to any the
+
+								company server.
+
+								14.Violate any applicable laws or regulations related to the access to or use of the Site, or
+
+								engage in any activity prohibited by the Terms of Use.
+
+								15.Prepare, compile, use, download or otherwise copy any Site user directory or other user or
+
+								usage information or any portion thereof, or transmit, provide or otherwise distribute
+
+								(whether or not for a fee) such directory or information to any third party.
+
+								16.Engage in any chain letters, contests, junk e-mail, pyramid schemes, spamming, surveys or
+
+								any other duplicative or unsolicited messages (commercial or otherwise).
+
+								17.Violate the rights of the company or any third party (including rights of privacy and
+
+								publicity) or abuse, defame, harass, stalk or threaten another.
+
+
+
+								18.Use any the company domain name as a pseudonymous return e-mail address.
+
+								19.Market any goods or services for any business purpose (including advertising and making
+
+								offers to buy or sell goods or services), unless specifically allowed to do so by the company.
+
+								20.Upload, post, transmit, share, store or otherwise make available any content or material
+
+								that
+
+								a. Contains any private information of any third party, including, addresses, phone
+
+								numbers, email addresses, and credit card numbers.
+
+								b. We deem to be child pornography, excessively violent, harassing, inappropriate,
+
+								indecent, lascivious, lewd, obscene, profane, racist, harmful, threatening, unlawful,
+
+								defamatory, infringing, abusive, inflammatory, harassing, vulgar, obscene,
+
+								fraudulent, invasive of privacy or publicity rights, hateful, or racially, ethnically or
+
+								otherwise objectionable.
+
+								c. Contains software viruses or any other computer code, files or programs designed to
+
+								interrupt, destroy or limit the functionality of any computer software or hardware or
+
+								telecommunications equipment.
+
+								d. In the sole judgment of the company, is objectionable or which restricts or inhibits
+
+								any other person from using or enjoying the Site, or which may expose Company or
+
+								its users to any harm or liability of any type.
+
+								e. Would constitute, encourage or provide instructions for a criminal offense, violate
+
+								the rights of any party, or that would otherwise create liability or violate any local,
+
+								state, national or international law.
+
+
+
+								21.Solicit personal information from anyone under 18 or solicit passwords or personally
+
+								identifying information for commercial or unlawful purposes.
+
+								22.Use or attempt to use another's account, service or system without authorization from the
+
+								company, or create a false identity on the Service or the Site.
+
+								23.When using Services or Materials, you will be subject to any posted guidelines, rules or
+
+								licenses applicable to such Services or Materials, in addition to the Terms of Use. Materials
+
+								and Services provided by third parties, if any, (collectively, the "Third-Party Services") are
+
+								governed by separate agreements accompanying such Materials and Services. the company
+
+								offers no guarantees and assumes no responsibility or liability of any type with respect to
+
+								the Third-Party Services, including any liability resulting from incompatibility between a
+
+								Third-Party Service, the company Materials, the company provided Services or another
+
+								Third-Party Service. You agree that you will not hold the company responsible or liable with
+
+								respect to the Third-Party Services. the company, in its sole discretion, may (but has no
+
+								obligation to) monitor or review the Materials and Services at any time. the company may at
+
+								any time without notice and in its sole discretion:
+
+								a. Terminate a Service, access to or use of any Materials or an area of the Site where
+
+								Materials are posted or submitted.
+
+								b. Disclose any information related to your use of a Service or Material, or the
+
+								substance of any of your posted or submitted Materials, as the company deems
+
+								necessary to comply with applicable law, regulation, legal process or governmental
+
+								request. You agree to use extra care when disclosing any personally identifiable
+
+								information about yourself or your children in any Services or when you post or
+
+								otherwise submit any Materials.
+
+
+
+								Use of Software
+
+
+
+								Materials encompassing any software code, including programs, tools, utilities, files and otherwise, and
+
+								accompanying documentation that are made accessible via the Site (collectively, "Software") are the
+
+								copyrighted work of the company. Use of such Software is governed by the terms of the license
+
+								agreement that accompanies or is included with the Software, or by the license agreement expressly
+
+								stated on the Site page(s) accompanying the Software. You will not be able to use, download or install
+
+								any Software that is accompanied by or includes a license agreement unless you agree to the terms of
+
+								such license agreement. Absent a license agreement that accompanies the Software, use of the
+
+								Software will be governed by the Terms of Use. You agree that you will not decompile, reverse
+
+								engineer or otherwise attempt to discover the source code of the Software. The Software is made
+
+								available solely in accordance with the license agreement. Without limiting the foregoing, unless the
+
+								accompanying license agreement expressly allows otherwise, any copying or redistribution of the
+
+								Software is prohibited, including any copying or reproduction of the Software to any other server or
+
+								location for further reproduction, redistribution or use on a service bureau basis. Any unauthorized
+
+								use, copying or distribution of the Software is expressly prohibited by law, and may result in
+
+								severe civil and criminal penalties. Violators will be prosecuted to the maximum extent possible.
+
+								Submitted Materials
+
+								All of your User Materials that you post on or otherwise submit via the Site and Services shall not be
+
+								confidential information or trade secrets owned by you or any other party. You will receive no
+
+								compensation for any use of your User Materials. the company may, but is not required to, post or use
+
+								any of your User Materials that you may post or otherwise submit. the company does not pre-screen
+
+								User Materials that users provide or otherwise submit via the Site or Services. However, the company
+
+								may remove any posted or submitted User Materials from the Site or any Service for any reason without
+
+								notice in its sole discretion. By posting or submitting your User Materials, you represent and warrant
+
+								that you own or otherwise control all of the Intellectual Property Rights and other rights to your User
+
+								Materials as described in these Terms of Use, including all the rights necessary for you to post or
+
+								submit your User Materials.
+
+								You are solely and entirely responsible for all of your User Materials that you post or otherwise submit
+
+								via the Site or Services. You shall assume all risks associated with the use of your User Materials
+
+								including any reliance on the accuracy, completeness or usefulness of your User Materials. the company
+
+								does not guarantee the accuracy, integrity or quality of your User Materials. You acknowledge and
+
+								agree that by accessing or using the Site or Services, you may be exposed to User Materials from others
+
+								that are offensive, indecent or otherwise objectionable.
+
+								The company's Rights to Submitted User Materials
+
+								For all of your User Materials that you post or otherwise submit to the Site, including
+
+								a. Comments to Communications Venues
+
+								b. Questions
+
+								c. Suggestions
+
+								d. Ideas
+
+								e. Feedback
+
+								f. Other information about the Site or the Services
+
+								You grant the company an unrestricted, irrevocable, non-exclusive, worldwide, royalty-free and fully
+
+								paid up license under all Intellectual Property Rights to use, reproduce, publicly display, publicly
+
+								perform, copy, edit, modify, translate, reformat, transmit and distribute such User Materials, with or
+
+
+
+								without having your name attached to such User Materials, in any manner or form and for any purpose,
+
+								with full rights to sublicense such rights through multiple tiers of distribution, and you also
+
+								acknowledge and agree that the company is free to use any ideas, concepts, know-how or techniques
+
+								that you provide for any purpose without any compensation to you. You acknowledge and agree that
+
+								the company shall not be liable for any failure to store User Materials on the Site at any time.
+
+
+
+								Links to Third Party Sites
+
+								The Site, Services or Materials may include links that will take you to other sites outside of the Site
+
+								("Linked Sites"). The Linked Sites are provided by the company to you as a convenience and the
+
+								inclusion of the links do not imply any endorsement by the company of any Linked Site. the company
+
+								has no control of the Linked Sites and you therefore acknowledge and agree that the company is not
+
+								responsible for the contents of any Linked Site, any link contained in a Linked Site or any changes or
+
+								updates to a Linked Site. You further acknowledge and agree that the company is not responsible for
+
+								any form of transmission received from any Linked Site.
+
+								Restriction and Termination of Use
+
+								The company may block, restrict, disable, suspend or terminate your access to all or part of the free
+
+								Site, Services and Materials at any time in the company's sole discretion, without prior notice to you or
+
+								liability to the company. Specifically, after a period of inactivity, the company reserves the right to
+
+								disable or terminate a user's account. If an account has been deactivated for inactivity, the user name
+
+								associated with that account may be given to another user without notice to you or such other party.
+
+								If you violate the terms and conditions the company may, at their sole discretion, block, restrict,
+
+								disable, suspend or terminate the paid conditions.
+
+								Warranties and Disclaimers
+
+								The site, services and materials, are provided by the company under these terms of use "as is" without
+
+								warranty of any kind, either express, implied, statutory or otherwise, including, but not limited to, the
+
+								implied warranties of title, non-infringement, merchantability or fitness for a particular purpose.
+
+								Without limiting the foregoing, the company makes no warranty that
+
+								i. The site, services or materials will meet your requirements.
+
+								ii. The site, services or materials will be uninterrupted, timely, secure, or error-free.
+
+								iii. The results that may be obtained from the use of the site, services or materials will be
+
+								effective, accurate, or reliable.
+
+								iv. The quality of the site or any services or materials purchased or accessible by you will meet
+
+								your expectations and
+
+								v. Any errors or defects in the site, services or materials will be corrected.
+
+								This site, services and materials may include technical or other mistakes, inaccuracies, or
+
+								typographical errors. The company may make changes to the site, materials and services, including the
+
+								prices and descriptions of any software or products listed, at any time in its sole discretion and without
+
+								notice. The site, materials and services may be out of date, and the company makes no commitment to
+
+								update the site, materials and services. You acknowledge and agree that:
+
+								i. The company does not control, endorse, or accept responsibility for any materials or
+
+								services offered by third parties, including third-party vendors and third parties accessible
+
+								through linked sites.
+
+
+
+								ii. The company makes no representations or warranties whatsoever about any such third
+
+								parties, their materials or services.
+
+								iii. Any dealings you may have with such third parties are at your own risk and
+
+								iv. The company shall not be liable or responsible for any materials or services offered by third
+
+								parties.
+
+								The company specifically disclaims any liability with regard to the site, services and any actions
+
+								resulting from your use of the site and materials and participation in any services. Managers, hosts,
+
+								participants and other third parties are not authorized the company spokespersons, and their views do
+
+								not necessarily reflect those of the company. To the maximum extent permitted by law, the company
+
+								will have no liability related to user materials arising under intellectual property rights, libel, privacy,
+
+								publicity, obscenity or other laws. The company also disclaims all liability with respect to the misuse,
+
+								loss, modification or unavailability of any user materials.
+
+								The use of the site, services or the downloading or other use of any materials is done at your own
+
+								discretion and risk and with your agreement that you will be solely responsible for any damage to your
+
+								computer system, loss of data or other harm that results from such activities. The company assumes no
+
+								liability for any computer virus or other similar software code that is downloaded to your computer
+
+								from the site or in connection with any services or materials. No advice or information, whether oral or
+
+								written, obtained by you from the company or via the site, services or materials shall create any
+
+								warranty not expressly stated in the terms of use. The company will not be liable for any loss that you
+
+								may incur as a result of someone else using your password or account with respect to the site or any
+
+								services or materials, either with or without your knowledge.
+
+								In the event the foregoing limitation of liability set forth herein shall be for any reason held
+
+								unenforceable or inapplicable, you agree that the company's aggregate liability shall not exceed the
+
+								amount paid, if any, for the purchase of any product or service from the company's website.
+
+								International Users
+
+								This Site can be accessed from countries around the world and may contain references to the company
+
+								products, services and programs that are not available in your country. These references do not imply
+
+								that the company intends to announce such products, services or programs in your country. The Site is
+
+								controlled, operated and administered by the company. If you access the Site from a location outside
+
+								India, you are responsible for compliance with all local laws.
+
+								Notification of Copyright Infringement
+
+								The company will, in appropriate circumstances, terminate the accounts of users who infringe the
+
+								Intellectual Property Rights of others. The company will investigate notices of copyright infringement
+
+								and take appropriate actions. If you believe that your work has been used or copied in a way that
+
+								constitutes copyright infringement and such infringement is occurring on this Site or in connection with
+
+								the Services or Materials, please provide notification of claimed copyright infringement to the company
+
+								on our registered office address.
+
+								Spam e-mail and Postings
+
+								In the event of your or others' access to or use of the Site, Services or Materials in connection with the
+
+								transmission of spam newsgroup postings or unsolicited e-mail in violation of these Terms of Use, you
+
+								acknowledge and agree that the company would be irreparably harmed there under and that monetary
+
+								damages would be an insufficient and ineffective remedy therefore you agree that the company is
+
+								entitled to obtain immediate injunctive relief against any such transmission (in addition to all other
+
+
+
+								remedies available at law or in equity). The company may without restriction block, filter or delete
+
+								unsolicited e-mail.
+
+								Advertisements and Promotions
+
+								The company may run advertisements and promotions from third parties via the Site, Services or
+
+								Materials in any manner or mode and to any extent. Your communications, activities, relationships and
+
+								business dealings with any third parties advertising or promoting via the Site, Services or Materials,
+
+								including payment and delivery of related goods or services, and any other terms, conditions,
+
+								warranties or representations associated with such dealings, shall be solely matters between you and
+
+								such third parties. You acknowledge and agree that the company is not responsible or liable for any
+
+								loss or damage of any kind incurred as the result of any such dealings or as the result of the presence
+
+								of such non-company advertisers on the Site or in connection with the Services or Materials.
+
+								Indemnity and Liability
+
+								You agree to indemnify and hold the company and its officers, co-branders, other partners and
+
+								employees harmless from any claim or demand, including reasonable attorneys' fees, made by any third
+
+								party due to or arising out of:
+
+								a. Your User Materials and any other content (e.g. computer viruses) that you may submit, post
+
+								to or transmit through the Site (including a third party's use of such User Materials or
+
+								content (e.g. reliance on the accuracy, completeness or usefulness of your User Materials)).
+
+								b. Your access to or use of the Site, Services or Materials (including any use by your employees,
+
+								contractors or agents and all uses of your account numbers, user names and passwords,
+
+								whether or not actually or expressly authorized by you, in connection with the Site or any
+
+								Services or Materials).
+
+								c. Your connection to the Site, Services or Materials.
+
+								d. Your violation of the Terms of Use.
+
+								e. Your infringement of any third party's Intellectual Property Rights when using any of the
+
+								Software made available on the Site, Services or in any Materials.
+
+								f. Your violation of any rights of any third party.
+
+								g. Your access to or use of Linked Sites and your connections thereto. or
+
+								h. Any dealings between you and any third parties advertising or promoting via the Site,
+
+								Services or Materials.
+
+								Language
+
+								It is the express wish of the parties that the Terms of Use and all related documents have been drawn
+
+								up in English.
+
+								Customer Contact
+
+								The company reserves the right to contact you from time to time regarding new site features, product
+
+								launches, etc through e-mail, SMS, phone call , physical mail etc.
+
+								Mobile Services
+
+								The Site may include certain services that may be available via your mobile phone, such as alerts and
+
+								information. By using or registering for these the Mobile Services, you agree that we may communicate
+
+								with you regarding the company and other entities by SMS, MMS, text message or other electronic
+
+								means to your mobile device.
+
+								Terms of Sale
+
+
+
+								Please refer to our Terms of Sale for the terms, conditions and policies applicable to your purchase of
+
+								products or services from Company. By ordering products or services from Company through the Site,
+
+								you agree to be bound by and accept the Terms of Sale. The Terms of Sale are subject to change
+
+								without prior notice at any time, in Company's sole discretion so you should review the Terms of Sale
+
+								each time you make a purchase.
+
+								User Disputes
+
+								You are solely responsible for your interactions with other the company users. We reserve the right,
+
+								but have no obligation, to monitor disputes between you and other users.
+
+								Settlement by Arbitration
+
+								Any claim or controversy that arises out of or relates to this agreement, or the breach of it, the same
+
+								shall be referred to a person nominated by the Company whose decision shall be final and binding upon
+
+								the parties hereto. Such references shall be deemed to a submission to arbitration in accordance with
+
+								the provisions of the Arbitration and Conciliation Act, 1996.
+
+								Governing Law and Jurisdiction
+
+								This Site (excluding linked sites) is controlled by the company from its registered office. By accessing
+
+								this Site, you agree that all matters relating to your access to, or use of, this Site shall be governed by
+
+								laws applicable to jurisdiction applicable in the jurisdiction where the registered address is located or
+
+								the jurisdiction that the registered address of the company falls under.
+
+								GENERAL
+
+								The Terms of Use and other rules, guidelines, licenses and disclaimers posted via the Site or in
+
+								connection with the Materials and Services constitute the entire agreement between the company and
+
+								you with respect to your access to or use of the Site, Materials and Services superseding any prior
+
+								agreements between you and the company on such subject matter (including any prior versions of the
+
+								Terms of Use).
+
+								You may also be subject to additional terms and conditions that may apply when you use other the
+
+								company services, third party content or third party software.
+
+								You may not assign or otherwise transfer the Terms of Use nor any right granted hereunder without the
+
+								company's prior written consent.
+
+								If for any reason a court of competent jurisdiction finds any provision of the Terms of Use, or portion
+
+								thereof, to be unenforceable, that provision shall be enforced to the maximum extent permissible so as
+
+								to effect the intent of the parties as reflected by that provision, and the remainder of the Terms of
+
+								Use shall continue in full force and effect. Any failure by the company to enforce or exercise any
+
+								provision of the Terms of Use or related right shall not constitute a waiver of that right or provision.
+
+								The section titles used in the Terms of Use are purely for convenience and carry with them no legal or
+
+								contractual effect.
+
+
+
+								We are posting this Policy in an effort to be a good web citizen. If you have a question, please bring it to
+								our attention. Write to us at: abhinaymaths@gmail.com
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a data-toggle="modal" data-target="#exampleModalLong3" href="#">Cancellation and refund policy</a>
+				<div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+				 aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Cancellation and refund policy</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+
+
+								Refund Policy
+
+								As of now we do not provide any option for cancellation of products and/or services you have
+
+								purchased.
+
+
+
+								Once a product/service has been purchased by you, we cannot provide any refund, either totally
+
+								or partially.
+
+
+
+								We suggest that first you go through the demos and/or free to use contents/products/services
+
+								before you purchase.
+
+
+
+								Our Student Support Specialists are ready to assist you on call _Contact Number__ / Email :
+
+								7838855815/abhinaymaths@gmail.com
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="clearfix"> </div>
@@ -671,31 +1768,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			$('.vidoes-to-show').slick({
 				accessibility: true,
 				arrows: true,
-				mobileFirst:true,
+				mobileFirst: true,
 				dots: true,
 				autoplay: false,
-				responsive: [
-					{
-					breakpoint: 1024,
-					settings: {
-						slidesToShow: 3,
-						infinite: true,
-						dots: true
-					}
+				responsive: [{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 3,
+							infinite: true,
+							dots: true
+						}
 					},
 					{
-					breakpoint: 600,
-					settings: {
-						slidesToShow: 2,
-					}
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 2,
+						}
 					},
 					{
-					breakpoint: 480,
-					settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						}
 					}
-					}]
+				]
 			});
 		});
 	</script>
