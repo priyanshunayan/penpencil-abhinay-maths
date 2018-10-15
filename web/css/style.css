@@ -1813,3 +1813,11 @@ div#myTabContent {
 	color: white;
 	text-decoration: underline;
 }
+.quote {
+	font-size: 1.6em!important;
+	width: 100%;
+}
+.videos-to-show {
+	width: 100%!important;
+	overflow: hidden;
+}
