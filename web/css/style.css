@@ -70,7 +70,7 @@ input[type="submit"],.w3agile_contact_right_agileinfo p a,.w3_copy_right p a{
 	text-transform:uppercase;
 }
 .navigation-right ul li.active a{
-	color:#EEE048;
+	color:#e67700;
 }
 .navigation {
     padding:1em 0em;
@@ -94,8 +94,8 @@ span.menu{
 	overflow: hidden;
 	padding: 10px 0;
 	max-width: 0;
-	border-bottom: 2px solid #EEE048;
-    color: #EEE048;
+	border-bottom: 2px solid #e67700;
+    color: #e67700;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.5s;
 	-moz-transition: max-width 0.5s;
@@ -387,7 +387,7 @@ p.nostrud{
 }
 .view h5 {
 	text-transform: capitalize;
-    color:#EEE048;
+    color:#e67700;
     text-align: center;
     position: relative;
     font-size: 1.7em;
@@ -568,7 +568,7 @@ p.nostrud{
 	margin: -1.8rem;
 }
 .twitter span,.facebook span,.google-plus span,.pinterest span {
-	background-color:#EEE048;
+	background-color:#e67700;
 }
 /* Icons */
 .icon-button i {
@@ -750,7 +750,7 @@ select#country,select#country1{
     transform: rotate(360deg);
 }
 .w3agile_gallery_grid figcaption h4 {
-    color: #EEE048;
+    color: #e67700;
     padding: 0px 20px;
     margin-bottom: 0;
     position: relative;
@@ -919,7 +919,7 @@ div#myTabContent {
     margin: 3em 0 0;
 }
 .w3agile_contact_left input[type="submit"]:hover{
-	background:#EEE048;
+	background:#e67700;
 	color:#212121;
 }
 .w3agile_contact_right h3 a{
@@ -1820,4 +1820,23 @@ div#myTabContent {
 .videos-to-show {
 	width: 100%!important;
 	overflow: hidden;
+}
+
+.more {
+	width: 70%;
+	margin: auto;
+}
+.form-control:focus {
+	border-color: #e67700!important;
+	box-shadow:0 0 0 0.2rem #e67700!important;
+}
+@media only screen and (min-width:768px) {
+	.more {
+		width: 40%;
+		margin: auto;
+	}
+	.more input[type="number"]
+	{
+	font-size:1.4em;
+	}
 }
