@@ -7,6 +7,7 @@ const errMessage = document.getElementById('errMessage');
 enterNowBtn.addEventListener('click', () => {
     if (phoneInput.value == 8986484443) {
         enterNowBtn.setAttribute('data-target', '#login');
+        
     } else {
         enterNowBtn.setAttribute('data-target', '#signup');
         console.log("===========>", "This case");
